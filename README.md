@@ -1,7 +1,13 @@
 ## Applying Ensemble Methods and Model Tuning in Machine Learning
 To lay the groundwork for this project, the foundations of Advanced Machine Learning were built through the study of Ensemble Methods such as Bagging, Random Forest, Boosting, AdaBoost, Gradient Boosting, XGBoost, and Stacking. Emphasis was placed on understanding the distinctions among these techniques and evaluating how their performance varies under different scenarios. The learning was further extended to Model Optimization techniques, including Cross-Validation, Over-Sampling and Under-Sampling, Hyperparameter Tuning, Grid Search, and RandomizedSearchCV. Through these approaches, strategies for improving model accuracy, mitigating Bias and Variance, and addressing Imbalanced Data were demonstrated.
 
-A quick mind-map and notes prepared on OrgPad can be accessed here [Advanced Machine Learning](https://orgpad.info/s/z6ECHTI3AJX).
+OrgPad is a flexible online whiteboard that enables clear and visual organization of ideas and notes. In this case, it was used to create a structured mind map and capture key concepts of advanced machine learning such as ensemble methods and model tuning. Access the mind map and notes [Advanced Machine Learning](https://orgpad.info/s/z6ECHTI3AJX).
+
+
+[![](ensemble_and_model_tuning_mindmap.png)](https://orgpad.info/s/z6ECHTI3AJX)
+
+The solution approach for the problem statement involved training 18 models, evaluating them based on recall, and hyperparameter tuning the top 8, resulting in the selection of the best-performing AdaBoost model. As revealed by the AdaBoost model's feature importance, we arrived at the top 3 features as driving factors for visa certification.
+<img src="feature_importance.png" alt="Feature Importance" width="400" height="300">
 
 ## Problem Statement
 
